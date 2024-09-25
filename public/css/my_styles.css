@@ -1,5 +1,5 @@
 
-  .button{
+  .primary_button{
     background-color: #0d6efd;
     color: white;
     padding: 10px;
@@ -14,15 +14,248 @@
       
   }
 
-  .button:hover{
+  .primary_button:hover{
     box-shadow: 10px 10px 118px 102px rgba(0,0,0,0.15) inset;
       -webkit-box-shadow: 10px 10px 118px 102px rgba(0,0,0,0.15) inset;
       -moz-box-shadow: 10px 10px 118px 102px rgba(0,0,0,0.15) inset;
-
-    
-     /* or background-color: dark-blue; */
   }
 
-  .button:active {
+  .primary_button:active {
   background-color: #085ed7;
+}
+
+/*Secondary Button*/
+
+.secondary_button{
+  background-color: #6c757d;
+  color: white;
+  padding: 10px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: -21px -24px 62px 15px rgba(0,0,0,0.07) inset;
+    -webkit-box-shadow: -21px -24px 62px 15px rgba(0,0,0,0.07) inset;
+    -moz-box-shadow: -21px -24px 62px 15px rgba(0,0,0,0.07) inset;
+    
+    
+}
+
+.secondary_button:hover{
+  box-shadow: 10px 10px 118px 102px rgba(0,0,0,0.15) inset;
+    -webkit-box-shadow: 10px 10px 118px 102px rgba(0,0,0,0.15) inset;
+    -moz-box-shadow: 10px 10px 118px 102px rgba(0,0,0,0.15) inset;
+}
+
+.secondary_button:active {
+background-color: #5c5f6a;
+}
+
+/*Success Button*/
+
+.success_button{
+  background-color: #1a8754;
+  color: white;
+  padding: 10px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: -21px -24px 62px 15px rgba(0,0,0,0.07) inset;
+    -webkit-box-shadow: -21px -24px 62px 15px rgba(0,0,0,0.07) inset;
+    -moz-box-shadow: -21px -24px 62px 15px rgba(0,0,0,0.07) inset;
+}
+
+.success_button:hover{
+  box-shadow: 10px 10px 118px 102px rgba(0,0,0,0.15) inset;
+    -webkit-box-shadow: 10px 10px 118px 102px rgba(0,0,0,0.15) inset;
+    -moz-box-shadow: 10px 10px 118px 102px rgba(0,0,0,0.15) inset;
+}
+
+.success_button:active {
+background-color: #167348;
+}
+
+/*Danger Button*/
+
+.danger_button{
+  background-color: #dc3546;
+  color: white;
+  padding: 10px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: -21px -24px 62px 15px rgba(0,0,0,0.07) inset;
+    -webkit-box-shadow: -21px -24px 62px 15px rgba(0,0,0,0.07) inset;
+    -moz-box-shadow: -21px -24px 62px 15px rgba(0,0,0,0.07) inset;
+}
+
+.danger_button:hover{
+  box-shadow: 10px 10px 118px 102px rgba(0,0,0,0.15) inset;
+    -webkit-box-shadow: 10px 10px 118px 102px rgba(0,0,0,0.15) inset;
+    -moz-box-shadow: 10px 10px 118px 102px rgba(0,0,0,0.15) inset;
+}
+
+.danger_button:active {
+background-color: #bb3b31;
+}
+
+/*Warning Button*/
+
+.warning_button{
+  background-color: #ffc008;
+  padding: 10px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: -21px -24px 62px 15px rgba(255,255,255,0.07) inset;
+    -webkit-box-shadow: -21px -24px 62px 15px rgba(255,255,255,0.07) inset;
+    -moz-box-shadow: -21px -24px 62px 15px rgba(255,255,255, 0.07) inset;
+}
+
+.warning_button:hover{
+  box-shadow: 10px 10px 118px 102px rgba(255,255,255,0.15) inset;
+    -webkit-box-shadow: 10px 10px 118px 102px rgba(255,255,255,0.15) inset;
+    -moz-box-shadow: 10px 10px 118px 102px rgba(255,255,255,0.15) inset;
+}
+
+.warning_button:active {
+background-color: #ffca2b;
+}
+
+/*Info Button*/
+
+.info_button{
+  background-color: #11cbf0;
+  padding: 10px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: -21px -24px 62px 15px rgba(255,255,255,0.07) inset;
+    -webkit-box-shadow: -21px -24px 62px 15px rgba(255,255,255,0.07) inset;
+    -moz-box-shadow: -21px -24px 62px 15px rgba(255,255,255,0.07) inset;
+}
+
+.info_button:hover{
+  box-shadow: 10px 10px 118px 102px rgba(255,255,255,0.15) inset;
+    -webkit-box-shadow: 10px 10px 118px 102px rgba(255,255,255,0.15) inset;
+    -moz-box-shadow: 10px 10px 118px 102px rgba(255,255,255,0.15) inset;
+}
+
+.info_button:active {
+background-color: #30d2f2;
+}
+
+/* LESS INTRUSIVE VARIANT BUTTONS*/
+
+/*Primary*/
+
+
+.primary_unobtrusive{
+  color: #0d6efd;
+  padding: 10px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 7px;
+  border: solid;
+  border-color: #0d6efd;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.primary_unobtrusive:hover{
+  background-color:#0d6efd;
+  color: white;
+}
+
+/*Secondary*/
+
+.secondary_unobtrusive{
+  color: #6c757d;
+  padding: 10px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 7px;
+  border: solid;
+  border-color: #6c757d;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.secondary_unobtrusive:hover{
+  background-color:#6c757d;
+  color: white;
+}
+
+/*Success*/
+
+.success_unobtrusive{
+  color: #1a8754;;
+  padding: 10px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 7px;
+  border: solid;
+  border-color: #1a8754;;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.success_unobtrusive:hover{
+  background-color:#1a8754;;
+  color: white;
+}
+
+/*Danger*/
+
+.danger_unobtrusive{
+  color: #dc3546;
+  padding: 10px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 7px;
+  border: solid;
+  border-color: #dc3546;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.danger_unobtrusive:hover{
+  background-color:#dc3546;
+  color: white;
+}
+
+/*Warning*/
+
+.warning_unobtrusive{
+  color: #ffc008;
+  padding: 10px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 7px;
+  border: solid;
+  border-color: #ffc008;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.warning_unobtrusive:hover{
+  background-color:#ffc008;
+  color: black;
+}
+
+/*Info*/
+
+.info_unobtrusive{
+  color: #11cbf0;
+  padding: 10px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 7px;
+  border: solid;
+  border-color: #11cbf0;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.info_unobtrusive:hover{
+  background-color:#11cbf0;
+  color: black;
 }
