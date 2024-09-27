@@ -1,2 +1,29 @@
+<head>
+<style>
+div{
+
+}
+  
+
+</style>
+</head>
+
+<body>
+<a href="/">Table of contents</a>
+<hr>
 <%# The below code creates an array of 10 random names %>
 <%= names = Array.new(10) { Faker::Name.unique.name  } %>
+<%numbers=[]%>
+<%10.times do %>
+  <%numbers.push(rand(1..10))%>
+<%end%>
+
+ <div class="col-md-4 offset-md-4">
+  <ul class="list-group">
+  <% names.each do |name| %>
+    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"><%=name%><span class="badge text-bg-primary rounded-pill"><%=rand(1..10)%></span></li>
+    
+  <%end%>
+  </ul></div>
+
+</body>
